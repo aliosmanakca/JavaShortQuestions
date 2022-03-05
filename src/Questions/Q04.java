@@ -1,10 +1,9 @@
 package Questions;
 
+import java.util.Scanner;
+
 public class Q04 {
-  /*4----1 den 10 a kadar her satırda bir artırarak aşağıdaki şekli oluşturan Java kodunu yazınız.
-
-    Beklenen çıltı:
-
+  /*4
             1
             12
             123
@@ -15,4 +14,20 @@ public class Q04 {
             12345678
             123456789
             12345678910*/
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter a number");
+        int number = scan.nextInt();
+
+        for (int i = 1; i<=number; i++) {
+            for (int j = 1; j<=i; j++){
+                System.out.print(j);
+            }
+            System.out.println("");
+        }
+
+
+    }
 }
