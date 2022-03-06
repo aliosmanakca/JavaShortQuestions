@@ -14,7 +14,7 @@ public class Q08_Reverse {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("write something");
-        String writing = scan.next();
+        String writing = scan.nextLine();
 
 
         // 1. Way

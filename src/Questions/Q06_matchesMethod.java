@@ -38,7 +38,7 @@ public class Q06_matchesMethod {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("enter only one letter");
-        String letter = scan.next();
+        String letter = scan.nextLine();
 
         List<String> vowels = Arrays.asList("a","e","i","o","u");
 
