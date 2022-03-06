@@ -2,7 +2,7 @@ package Questions;
 
 import java.util.Scanner;
 
-public class Q05 {
+public class Q05_Asterisk {
     /*
 
            *
