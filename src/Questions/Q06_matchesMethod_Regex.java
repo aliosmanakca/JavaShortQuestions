@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class Q06_matchesMethod {
+public class Q06_matchesMethod_Regex {
 
     /*
 
