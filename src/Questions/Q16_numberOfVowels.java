@@ -1,8 +1,9 @@
 package Questions;
 
+import java.util.Locale;
 import java.util.Scanner;
 
-public class Q16 {
+public class Q16_numberOfVowels {
     /*
 
      Write a Java Method to count all vowels in the entered String.
@@ -26,7 +27,7 @@ public class Q16 {
     private static void method1(String data) {
         int number = 0;
         for (int i = 0; i<data.length(); i++) {
-            if (String.valueOf(data.charAt(i)).matches("[aeiou]")) {
+            if (String.valueOf(data.charAt(i)).toLowerCase().matches("[aeiou]")) {
                 number++;
             }
         }
