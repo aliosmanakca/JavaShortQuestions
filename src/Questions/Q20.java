@@ -22,8 +22,10 @@ public class Q20 {
 
         int [] arr = {1551,1223,1443,1267,1789,1023,2020};
         boolean condition = false;
+        int rank = 0;
 
         for (int i = 0; i < arr.length; i++){
+            rank++;
             if (arr[i]==number){
                 condition=true;
                 break;
@@ -31,6 +33,7 @@ public class Q20 {
         }
 
         System.out.println(condition);
+        System.out.println(number + " is the "+ rank + ". element of the array");
 
 
 
