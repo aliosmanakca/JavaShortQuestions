@@ -40,7 +40,6 @@ public class Q28_deletingRepetitiveLetters {
             }
         }
 
-
         System.out.println(repetitiveLetters);
         allLetters.removeAll(repetitiveLetters);
         System.out.println(allLetters);
