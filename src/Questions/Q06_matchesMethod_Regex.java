@@ -40,7 +40,7 @@ public class Q06_matchesMethod_Regex {
         System.out.println("enter only one letter");
         String letter = scan.nextLine();
 
-        List<String> vowels = Arrays.asList("a","e","i","o","u");
+        List<String> vowels = Arrays.asList("a","e","i","o","u","A","E","I","O","U");
 
 
         if (letter.length()==1 && letter.matches("[a-zA-Z ]")) { // this means it contains only alphabet and space. If we add ^ symbol after the first bracket it means everything except alphabet and space
