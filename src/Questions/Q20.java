@@ -32,8 +32,12 @@ public class Q20 {
             }
         }
 
-        System.out.println(condition);
-        System.out.println(number + " is the "+ rank + ". element of the array");
+        if (condition){
+            System.out.println(number + " is the "+ rank + ". element of the array");
+        }else {
+            System.out.println(number + " is not in the array");
+        }
+
 
 
 
