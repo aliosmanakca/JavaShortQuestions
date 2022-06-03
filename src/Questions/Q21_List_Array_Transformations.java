@@ -31,14 +31,16 @@ public class Q21_List_Array_Transformations {
         System.out.println(Arrays.toString(arr1));
         System.out.println(list1);
 
+
         // Array to List 2. Way
         String[] arr2 = {"x","y","z"};
 
-        List<String> list2 = new ArrayList<>(Arrays.asList(arr2));
-        // In this way, they are not connected. So changes that made in one of them don't affect the other one.
+        List<String> list2 = new ArrayList<>(Arrays.asList(arr2)); // We can use add or remove methods
 
-        list2.set(0, "r");
+        list2.set(0, "r"); // In this way, they are not connected. So changes that made in one of them don't affect the other one.
         arr2[1]="k";
+
+        list2.add("abc");
 
         System.out.println(list2);
         System.out.println(Arrays.toString(arr2));
