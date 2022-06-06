@@ -6,6 +6,18 @@ import java.util.Scanner;
 
 public class Q35 {
     public static void main(String[] args) {
+        /*
+        Input:
+        3
+        ali osman akca
+        ali osman akca mehmet
+        ali osman akca mehmet zeynep
+
+        Output:
+        ali osman akca
+        ali akca osman mehmet
+        ali mehmet akca osman zeynep
+         */
         Scanner scan = new Scanner(System.in);
 
         int number = scan.nextInt();
